@@ -1,0 +1,31 @@
+{
+  "name": "page-converter",
+  "version": "1.0.0",
+  "description": "Convert the number of pages to the index of records",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "zuojiang.wang@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "just-compare": "^1.3.0"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zuojiang/page-converter.git"
+  },
+  "keywords": [
+    "page",
+    "pagination",
+    "pagenumber",
+    "pageindex",
+    "start",
+    "offset"
+  ],
+  "bugs": {
+    "url": "https://github.com/zuojiang/page-converter/issues"
+  },
+  "homepage": "https://github.com/zuojiang/page-converter#readme"
+}
