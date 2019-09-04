@@ -6,7 +6,7 @@ exports.calculateStart = function(pageNumber, size) {
   if (size < 1) {
     throw new Error('size needs to be a positive integer')
   }
-  return Math.max((pageNumber - 1) * size - 1, 0)
+  return Math.max((pageNumber - 1) * size, 0)
 }
 
 exports.calculatePageNumber = function(start, offset) {

@@ -6,14 +6,13 @@ const {
 } = require('./index')
 
 assert.equal(calculateStart(1, 10), 0)
-assert.equal(calculateStart(2, 10), 9)
-assert.equal(calculateStart(3, 10), 19)
-assert.equal(calculateStart(4, 10), 29)
+assert.equal(calculateStart(2, 10), 10)
+assert.equal(calculateStart(3, 10), 20)
+assert.equal(calculateStart(4, 10), 30)
 
 assert.equal(calculatePageNumber(0, 10), 1)
-assert.equal(calculatePageNumber(19, 10), 2)
-assert.equal(calculatePageNumber(29, 10), 3)
-assert.equal(calculatePageNumber(39, 10), 4)
+assert.equal(calculatePageNumber(10, 10), 2)
+assert.equal(calculatePageNumber(20, 10), 3)
 assert.equal(calculatePageNumber(30, 10), 4)
 
 assert.equal(calculateTotalPage(100, 10), 10)

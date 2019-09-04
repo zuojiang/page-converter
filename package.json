@@ -1,6 +1,6 @@
 {
   "name": "page-converter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert the number of pages to the index of records",
   "main": "index.js",
   "scripts": {
